@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- my stylesheet -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style1.css">
+
+    <!-- Swiper Connection  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- header part -->
+
+    <section class="header">
+        <a href="home.html" class="logo">travel.</a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="package.html">package</a>
+            <a href="book.html">Book</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!-- header part end  -->
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var swiper = new Swiper(".reviews-slider", {
+                loop: true,
+                spaceBetween: 20,
+                autoHeight: true,
+                grabCursor: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 1,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                    },
+                },
+            });
+        });
+    </script>
+
+    <div class="heading"
+        style="background: url('https://source.unsplash.com/featured/?office') no-repeat center center / cover;">
+        <div class="overlay">
+            <h1>About Us</h1>
+        </div>
+    </div>
+
+
+    <!-- About section starts -->
+    <section class="about">
+        <div class="image">
+            <img src="/images/paris.jpg" alt="Paris">
+        </div>
+        <div class="content">
+            <h3>Why Choose Us?</h3>
+            <p>Choosing us means embarking on expertly curated, unique travel experiences with unmatched local
+                insights.We emphasize sustainable tourism, providing exclusive access to unique activities, backed by
+                24/7 support and a satisfaction guarantee. Travel with us to create unforgettable memories while
+                supporting community and environmental well-being.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-map"></i>
+                    <span>Top Destinations</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <span>Affordable Price</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 Guide Service</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+    <h1 style="text-align: center;">Client Reviews</h1>
+    <section class="reviews">
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Traveling with this team was an absolute joy.. Can’t wait for our next adventure!"</p>
+                    <h3>Samantha J. New York, USA</h3>
+                    <span>Traveler</span>
+                    <img src="images/asian-3767281_1280.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Their local knowledge and the exclusive experiences they arranged were outstanding."</p>
+                    <h3>Carlos M. – Madrid, Spain</h3>
+                    <span>Traveler</span>
+                    <img src="/images/portrait-3157821_640.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"They were just a phone call away at any time, making me feel secure and well-cared-for."</p>
+                    <h3>Priya R. – Mumbai, India</h3>
+                    <span>Vloger</span>
+                    <img src="images/young-guy-with-curly-hair-dresses-casual-maroon-t-hirt-white-concrete-wall-people-youth-clothing-advertisement-concept.jpg"
+                        alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The commitment to sustainable travel is what drew me to this agency, and they did not
+                        disappoint."</p>
+                    <h3>Mark B. – Sydney, Australia</h3>
+                    <span>Traveler</span>
+                    <img src="images/portrait-handsome-bearded-man.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Every detail of our honeymoon was tailored to perfection."</p>
+                    <h3>Aisha L. – Cape Town, South Africa</h3>
+                    <span>Traveler</span>
+                    <img src="images/girl-3023800_640.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The expert guides and personalized itinerary made it a dream vacation."</p>
+                    <h3>Thomas K. – Berlin, Germany</h3>
+                    <span>Traveler</span>
+                    <img src="images/R (1).jpeg" alt="">
+                </div>
+
+
+            </div>
+        </div></section>
+
+
+
+        <!-- footer section start -->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
+                    <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
+                    <a href="package.html"><i class="fas fa-angle-right"></i> package</a>
+                    <a href="book.html"> <i class="fas fa-angle-right"></i> Book</a>
+                </div>
+
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i> terms of user</a>
+
+                </div>
+
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#"> <i class="fas fa-phone"></i> +94-764-991-637</a>
+                    <a href="#"> <i class="fas fa-phone"></i> +94-764-991-637</a>
+                    <a href="#"> <i class="fas fa-envelope"></i> absar6152@gmail.com </a>
+                    <a href="#"> <i class="fas fa-envelope"></i> absarmohammed@gmail.com </a>
+                    <a href="#"> <i class="fas fa-map"></i> Moratuwa,west-Colombo,Srilanka.</a>
+
+
+                </div>
+
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#"> <i class="fab fa-facebook"></i> facebook</a>
+                    <a href="#"> <i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#"> <i class="fab fa-twitter"></i> twitter</a>
+                    <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
+
+                </div>
+            </div>
+
+            <div class="credit">created by <span>web_technologies team</span> | all rights reserved!</div>
+
+        </section>
+
+        <!-- footer section end  -->
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- JS Script  -->
+        <script src="JS/script.js"></script>
+</body>
+
+</html>
